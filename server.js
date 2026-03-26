@@ -5,6 +5,6 @@ app.get("/", (req, res) => {
     res.send("Hello depuis Dokploy ");
 });
 
-app.listen(4000, () => {
+app.listen(3000, () => {
     console.log("App running on port 3000");
 });
